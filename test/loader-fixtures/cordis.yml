@@ -1,0 +1,12 @@
+- id: typert
+  name: '@deepseek-ai/dsh-typert-registry'
+- id: remote-access
+  name: '@deepseek-ai/dsh-api-remote-access'
+- id: gateway
+  name: '@deepseek-ai/dsh-api-gateway'
+- id: fs
+  name: '@deepseek-ai/dsh-fs-local'
+- id: external-workspace-session
+  name: ./external.mjs
+- id: workspace-reference
+  name: ../../index.js

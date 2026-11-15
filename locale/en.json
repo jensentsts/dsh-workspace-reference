@@ -1,0 +1,17 @@
+{
+  "meta": { "title": "Workspace references", "description": "Reference workspaces, sessions and files by stable ID, with explicit human-only multi-session routing." },
+  "workspace": "Workspace", "session": "Session", "file": "File", "directory": "Folder", "section": "Workspace references",
+  "routeReview": "Review routed messages", "routeReceipts": "Routing receipts", "reviewHint": "Check every destination before confirming. New routes create blank sessions only after confirmation.", "receiptHint": "Accepted means queued, not completed. Partial or unknown blocks are not automatically retried.",
+  "current": "Current session", "new": "New session", "existing": "Existing session", "rejected": "Rejected", "accepted": "Accepted", "cancelled": "Cancelled", "failed": "Failed", "unknown": "Unknown admission", "empty": "Empty block", "created": "Session created", "close": "Close", "cancel": "Cancel", "cancelRemaining": "Cancel remaining", "sending": "Sending…", "confirmSend": "Confirm send",
+  "rawDraftRequired": "Routing is unavailable because the input surface did not preserve the untrimmed draft. No message was sent.",
+  "invalidRoute": "Invalid routing header. No message was sent.",
+  "untitledSession": "Untitled session",
+  "routeTargetUnavailable": "Check the routing destination and try again.",
+  "workspaceMissing": "The specified workspace was not found.",
+  "sessionMissing": "The specified session was not found in this workspace.",
+  "workspaceAmbiguous": "The workspace name is ambiguous. Choose a workspace from autocomplete.",
+  "sessionAmbiguous": "Sessions in this workspace share that name. Choose a session from autocomplete.",
+  "sessionUnavailable": "The session list is temporarily unavailable.",
+  "routeAttachments": "Routing attachments is not supported. Remove attachments or send them directly in the target session.",
+  "routeFailed": "Routing did not complete. Inspect these receipts before retrying; accepted blocks must not be sent again."
+}

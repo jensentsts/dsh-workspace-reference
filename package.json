@@ -1,0 +1,93 @@
+{
+  "name": "dsh-workspace-reference",
+  "version": "0.2.0",
+  "type": "module",
+  "description": "Stable workspace/session references, native filesystem aliases and explicit human routing.",
+  "license": "MIT",
+  "main": "./index.js",
+  "types": "./index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "default": "./index.js"
+    },
+    "./references": {
+      "types": "./references.d.ts",
+      "default": "./references.js"
+    },
+    "./mentions": {
+      "types": "./mentions.d.ts",
+      "default": "./mentions.js"
+    },
+    "./client": "./client.js",
+    "./syntax": "./syntax.js",
+    "./routes": "./routes.js",
+    "./delivery": "./delivery.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "references.js",
+    "references.d.ts",
+    "mentions.js",
+    "mentions.d.ts",
+    "syntax.js",
+    "routes.js",
+    "delivery.js",
+    "session-context.js",
+    "review.js",
+    "rpc.js",
+    "client.js",
+    "integration.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test test/*.test.mjs",
+    "build": "node build.mjs",
+    "check": "node --check index.js && node --check references.js && node --check mentions.js && node --check integration.js && node --check syntax.js && node --check routes.js && node --check delivery.js && node --check session-context.js && node --check review.js && node --check client-entry.js && node --check rpc.js && node --check client.js"
+  },
+  "engines": {
+    "dsh": ">=0.2.2-rc.1 <0.3.0"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-input-trigger",
+        "@deepseek-ai/dsh-api-remotes",
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-client-ui-conversation"
+      ]
+    }
+  },
+  "peerDependencies": {
+    "@deepseek-ai/cordis": "^4.0.1",
+    "@deepseek-ai/schemastery": "^3.18.1",
+    "@deepseek-ai/dsh-typert-protocol": "0.2.2-rc.1",
+    "@deepseek-ai/dsh-llm": "0.2.2-rc.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jensentsts/dsh-workspace-reference.git"
+  },
+  "homepage": "https://github.com/jensentsts/dsh-workspace-reference#readme",
+  "bugs": {
+    "url": "https://github.com/jensentsts/dsh-workspace-reference/issues"
+  },
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "ai-agent"
+  ]
+}

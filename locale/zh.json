@@ -1,0 +1,17 @@
+{
+  "meta": { "title": "工作区引用", "description": "使用稳定 ID 引用工作区、会话与文件，并支持仅由用户明确提交的多会话消息分区。" },
+  "workspace": "工作区", "session": "会话", "file": "文件", "directory": "目录", "section": "工作区引用",
+  "routeReview": "确认消息分区", "routeReceipts": "分区发送回执", "reviewHint": "请检查每个目标再确认。新建目标只在确认后创建会话。", "receiptHint": "受理表示已排队，不代表模型已完成。失败或未知分区不会自动重试。",
+  "current": "当前会话", "new": "新建会话", "existing": "已有会话", "rejected": "拒绝", "accepted": "已受理", "cancelled": "已取消", "failed": "失败", "unknown": "受理状态未知", "empty": "空分区", "created": "已创建会话", "close": "关闭", "cancel": "取消", "cancelRemaining": "取消剩余分区", "sending": "正在发送…", "confirmSend": "确认发送",
+  "rawDraftRequired": "输入界面未保留原始缩进，无法安全分区；未发送消息。",
+  "invalidRoute": "路由头无效，未发送消息。",
+  "untitledSession": "未命名会话",
+  "routeTargetUnavailable": "请检查分区目标后重新提交。",
+  "workspaceMissing": "找不到指定的工作区。",
+  "sessionMissing": "在此工作区找不到指定的会话。",
+  "workspaceAmbiguous": "工作区名称有冲突，请从补全列表选择。",
+  "sessionAmbiguous": "工作区中有同名会话，请从补全列表选择。",
+  "sessionUnavailable": "暂时无法读取会话列表。",
+  "routeAttachments": "消息分区暂不支持附件。请移除附件，或进入目标会话直接发送。",
+  "routeFailed": "分区发送未全部完成。重试前请检查以下回执，不要再次发送已受理的分区。"
+}

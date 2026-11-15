@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" fill="none">
+  <title>Workspace references</title>
+  <rect x="3" y="3" width="58" height="58" rx="15" fill="#162C40"/>
+  <path d="M12 23a4 4 0 0 1 4-4h11l5 5h16a4 4 0 0 1 4 4v18a4 4 0 0 1-4 4H16a4 4 0 0 1-4-4V23Z" stroke="#C9DFEA" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M37 30v10a4 4 0 0 0 8 0v-3a10 10 0 1 0-5 9" stroke="#66D8BC" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="33" cy="37" r="4" stroke="#66D8BC" stroke-width="3"/>
+</svg>
