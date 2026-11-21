@@ -1,5 +1,16 @@
 # Workspace references / 工作区引用
 
+## 从 GitHub 直接安装
+
+在 DSH 的「插件 → 安装第三方插件」粘贴以下地址并安装：
+
+```text
+https://github.com/jensentsts/dsh-workspace-reference/archive/refs/heads/main.tar.gz
+```
+
+完整工作区路径功能需要版本匹配的基础扩展。
+
+
 > 插件集导航与市场索引：https://github.com/jensentsts/dsh-independent-plugins
 
 
